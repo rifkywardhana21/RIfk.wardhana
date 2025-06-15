@@ -1,9 +1,5 @@
 ### Hi there!
-### This is Simon Zirui Guo's personal website/portofolio.
-### Access it through [simonguo.tech](http://simonguo.tech).
-#### Contact Me at:
-* [E-mail](simonguozirui@gmail.com)
-* [LinkedIn](https://www.linkedin.com/in/simonguozirui/)
+### This is Muhammad Rifky Wardhana personal website/portofolio.
 
 #### Framework used:
 * Bootstrap CSS & JS
