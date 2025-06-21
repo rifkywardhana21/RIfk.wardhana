@@ -2392,3 +2392,622 @@ select {
 .interest-area li {
     text-align: left;
 }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    padding: 40px 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.subtitle,
+.updated {
+    text-align: center;
+    margin: 4px 0;
+    color: #666;
+}
+
+.updated {
+    font-weight: bold;
+    color: #888;
+    margin-bottom: 30px;
+}
+
+
+/* Filter Buttons */
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.filter-btn {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    padding: 40px 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.subtitle,
+.updated {
+    text-align: center;
+    margin: 4px 0;
+    color: #666;
+}
+
+.updated {
+    font-weight: bold;
+    color: #888;
+    margin-bottom: 30px;
+}
+
+
+/* Filter Buttons */
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.filter-btn {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+
+/* Wrapper utama agar konten ada di tengah halaman */
+
+.portfolio-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* Judul & Deskripsi agar rata tengah */
+
+.portfolio-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.portfolio-header h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.portfolio-header p {
+    color: #555;
+    line-height: 1.5;
+}
+
+
+/* Tombol Filter di tengah */
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.filter-btn {
+    padding: 10px 16px;
+    border: none;
+    background-color: #eee;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background-color: #2c3e50;
+    color: white;
+}
+
+
+/* Grid tetap di kiri */
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+    justify-content: start;
+    /* tetap sejajar dari kiri */
+}
+
+
+/* Tampilan item */
+
+.grid-item {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+}
+
+.grid-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.grid-item p {
+    padding: 10px;
+    font-weight: 500;
+    color: #333;
+}
+
+
+/* Folder Grid Styles */
+
+.folder-grid {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.folder {
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 200px;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    transition: background 0.3s;
+}
+
+.folder:hover {
+    background-color: #dcdde1;
+}
+
+.folder i {
+    font-size: 40px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    justify-content: start;
+}
+
+.grid-item {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+    transition: transform 0.3s;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.grid-item p {
+    padding: 10px;
+    font-weight: 500;
+}
+
+.grid-item.hide {
+    display: none;
+}
+
+#gridView {
+    display: none;
+}
+
+.grid-item {
+    display: block;
+}
+
+.grid-item.hide {
+    display: none !important;
+}
+
+.all-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 40px 0;
+    align-items: center;
+}
+
+.category-row {
+    width: 100%;
+    max-width: 960px;
+}
+
+.category-row h3 {
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.category-images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.category-images img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background: #fff;
+}
+
+.category-images img:hover {
+    transform: scale(1.05);
+}
+
+.category-row h3 {
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+    text-transform: uppercase;
+    text-align: center;
+    /* Ubah dari 'left' ke 'center' */
+}
+
+.modern-name {
+    padding-left: 0;
+    text-align: left;
+}
+
+.modern-name .subtitle {
+    font-size: 13px;
+    font-weight: 600;
+    color: #888;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.fullname {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.gradient-name {
+    background: linear-gradient(to right, #007cf0, #00dfd8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
+
+.underline-bar {
+    width: 60px;
+    height: 4px;
+    background: #007cf0;
+    border-radius: 2px;
+    margin: 12px 0 20px;
+}
+
+.unesa-logo {
+    height: 18px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+
+/* CSS */
+
+.intro-section {
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-left,
+.col-right {
+    flex: 1 1 400px;
+    padding: 20px;
+}
+
+.name-card .subtitle {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #888;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.name-card .main-name {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.name-card .lastname {
+    display: block;
+    font-weight: 700;
+    color: #333;
+}
+
+.name-card .tagline {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.name-card .logo-icon {
+    height: 20px;
+    vertical-align: middle;
+}
+
+.journey-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.btn-block {
+    display: block;
+    background: #333;
+    color: #fff;
+    padding: 12px 20px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-block:hover {
+    background: #000;
+    color: #fff;
+}
+
+.btn-block i {
+    margin-right: 10px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .intro-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    .name-card .main-name {
+        font-size: 28px;
+    }
+}
+
+.name-header {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.name-card .subtitle {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #888;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+.name-card .main-name {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 10px 0;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.name-card .lastname {
+    display: block;
+    color: #333;
+}
+
+.name-card .tagline {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.col-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.journey-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.journey-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.journey-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    background-color: #343434;
+    color: #fff;
+    padding: 14px 20px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.journey-btn:hover {
+    background-color: #222;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.journey-btn i {
+    font-size: 18px;
+}
+
+.grid-group {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.category-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #222;
+    text-transform: uppercase;
+}
+
+.grid-row {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+.grid-item {
+    width: 160px;
+    text-align: center;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.grid-item img:hover {
+    transform: scale(1.05);
+}
+
+.grid-item p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #333;
+}
